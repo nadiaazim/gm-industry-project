@@ -1,0 +1,6 @@
+@mixin text-style ($font-size, $font-height, $font-weight) {
+    font-size: $font-size;
+    line-height: $font-height;
+    // font-family: 'Avenir';
+    font-weight: $font-weight;
+}
