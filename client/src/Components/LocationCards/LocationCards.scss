@@ -1,18 +1,54 @@
+@use "../../styles/partials/global.scss" as *;
+@use "../../styles/partials/colors.scss" as *;
+@use "../../styles/partials/typography.scss" as *;
+@use "../../styles/partials/mixins.scss" as *;
+
 .locations-card {
+  width: inherit;
+  @include box-gradient;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0.75rem 0;
+  height: 7rem;
+
   &__left {
     width: 65%;
+    margin-left: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   &__address {
   }
   &__availability {
+    text-decoration: none;
+    color: white;
+    font-size: 0.75rem;
+    text-decoration: underline;
   }
   &__right {
-    width: 35%;
+    width: 30%;
+    margin-right: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   &__km {
+    text-align: end;
+    margin: 1rem 0 0;
+    font-size: 0.8rem;
   }
   &__rate {
+    text-align: end;
+    margin: 0;
+    font-size: 0.8rem;
   }
   &__directions {
+    text-decoration: none;
+    color: white;
+    font-size: 0.75rem;
+    text-decoration: underline;
+    text-align: end;
   }
 }

@@ -1,5 +1,4 @@
 import React from "react";
-import LocationCards from "../LocationCards/LocationCards";
 import map from "../../assets/images/map.png";
 import { Link } from "react-router-dom";
 import "./LocationPage.scss";
@@ -27,10 +26,6 @@ function LocationPage() {
             <img className="location__map" src={map} alt="map image" />
           </div>
         </div>
-        {/* This is the list section */}
-        {/* {locationArr.map((location) => (
-          <LocationCards key={Location.id} id={Location.id} />
-        ))} */}
       </section>
     </>
   );
