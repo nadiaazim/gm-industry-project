@@ -47,9 +47,9 @@ class Home extends Component {
                             <div className="home__analytics-divs-bottom">
                                 <h3 className="home__analytics-title">TEMPERATURE</h3>
                                 <div className="home__analytics-temperature">
-                                    <img src="" alt="minus-sign" className="home__analytics-temperature-logo" />
+                                    {/* <img src="" alt="minus-sign" className="home__analytics-temperature-logo" /> */}
                                     <p className="home__analytics-temperature-stats">23°C</p>
-                                    <img src="" alt="plus-sign" className="home__analytics-temperature-logo" />
+                                    {/* <img src="" alt="plus-sign" className="home__analytics-temperature-logo" /> */}
                                 </div>
                             </div>
                         </div>

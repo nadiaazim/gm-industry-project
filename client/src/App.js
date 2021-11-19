@@ -22,7 +22,7 @@ class App extends Component {
             {/* <Route path= "/car" component={Car}/> */}
             <Route path="/location" exact component={location} />
             {/* <Route path= "/ratepage" component= {RatePage} /> */}
-            <Route path= "/bookings" exact component={Bookings}/>
+            {/* <Route path= "/bookings" exact component={Bookings}/> */}
           </Switch>
           {/* <Footer /> */}
         </section>
