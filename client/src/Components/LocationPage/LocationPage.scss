@@ -1,0 +1,32 @@
+@use "../../styles/partials/global.scss" as *;
+@use "../../styles/partials/colors.scss" as *;
+@use "../../styles/partials/typography.scss" as *;
+@use "../../styles/partials/mixins.scss" as *;
+
+.location {
+  margin: 0 auto;
+
+  &__header {
+    font-weight: 700;
+    @include pageheader;
+  }
+  &__search {
+    @include box-gradient;
+  }
+  &__open-now {
+    @include box-no-gradient;
+  }
+  &__closest-first {
+    @include box-no-gradient;
+  }
+  &__map-wrap {
+    display: flex;
+    justify-content: center;
+  }
+  &__map {
+    width: 90%;
+    height: 22rem;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+}
