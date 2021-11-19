@@ -1,3 +1,125 @@
 @use '../../styles/partials/colors.scss' as *;
-@use '../../styles/global.scss';
+@use '../../styles/partials/global.scss';
+@use '../../styles/partials/mixins.scss' as *;
 
+.home {
+
+    &__car {
+
+        &-component{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &-name{
+            @include pageheader
+        }
+    }
+
+    &__stats {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        &-container{
+            margin: 1rem 0.5rem 0 0.5rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 3rem;
+            width: 8rem;
+        }
+        
+        &-title {
+            margin-bottom: 0.2rem;
+            color: $secondary-color;
+            @include text-style (0.9rem, 1.9rem, 400);
+        }
+
+        &-details {
+            @include text-style (0.9rem, 0, 400);
+            margin: 0;
+            color: $secondary-color;
+        }
+    }
+
+    &__analytics {
+        margin-top: 4rem;
+
+        &-container-top{
+            display: flex;
+        }
+
+        &-block {
+            @include box-gradient;
+            margin: 0.5rem;
+            height: 8rem;
+            width: 10rem;
+        }
+
+        &-divs {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &-divs-top {
+            @include box-gradient;
+            margin: 0.5rem;
+            height: 3rem;
+            width: 8rem;
+        }
+
+        &-divs-bottom {
+            @include box-gradient;
+            height: 3rem;
+            width: 8rem;
+        }
+
+        &-container-bottom{
+            display: flex;
+        }
+
+        &-title {
+            @include text-style (0.9rem, 1.9rem, 400);
+            margin: 0;
+        }
+
+        &-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &-number {
+            @include text-style (1.8rem, 1.9rem, 700);
+            margin: 1rem 0 0 0;
+
+        }
+
+        &-unit {
+            @include text-style (0.9rem, 1.9rem, 400);
+            margin: 0;
+        }
+
+        &-battery {
+            display: flex;
+            justify-content: center;
+
+            &-stats {
+                margin: 0;
+            }
+        }
+
+        &-temperature {
+            display: flex;
+            justify-content: center;
+
+            &-stats {
+                margin: 0;
+            }
+        }
+    }
+}

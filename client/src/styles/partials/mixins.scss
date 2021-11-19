@@ -3,28 +3,35 @@
 @use "./typography.scss" as *;
 
 @mixin box-gradient {
-  border: 0.1px solid rgb(244, 244, 244);
-  outline: none;
-  border-radius: 7px;
-  box-shadow: 2px 3px 10px rgb(255 255 255 / 0.2);
-  background: linear-gradient(#4d4d4e, #383838);
-  color: rgb(244, 244, 244);
-  padding: 0.5rem;
+    border: 0.1px solid rgb(244, 244, 244);
+    outline: none;
+    border-radius: 7px;
+    box-shadow: 2px 3px 10px rgb(255 255 255 / 0.2);
+    background: linear-gradient(#4d4d4e, #383838);
+    color: rgb(244, 244, 244);
+    padding: 0.5rem;
 }
 
 @mixin box-no-gradient {
-  border: 0.15px solid rgb(244, 244, 244);
-  border-radius: 7px;
-  box-shadow: 2px 3px 10px rgb(255 255 255 / 0.2);
-  background: $background-color;
-  color: rgb(244, 244, 244);
-  padding: 0.5rem;
-  font-weight: 100;
+    border: 0.15px solid rgb(244, 244, 244);
+    border-radius: 7px;
+    box-shadow: 2px 3px 10px rgb(255 255 255 / 0.2);
+    background: $background-color;
+    color: rgb(244, 244, 244);
+    padding: 0.5rem;
+    font-weight: 100;
 }
 
 @mixin pageheader {
-  font-size: 1.5rem;
-  font-weight: 700;
-  text-align: center;
-  color: rgb(244, 244, 244);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    color: rgb(244, 244, 244);
+}
+
+@mixin text-style ($font-size, $font-height, $font-weight) {
+    font-size: $font-size;
+    line-height: $font-height;
+    // font-family: 'Avenir';
+    font-weight: $font-weight;
 }
