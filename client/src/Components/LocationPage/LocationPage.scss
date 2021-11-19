@@ -57,3 +57,49 @@
     border-radius: 10px;
   }
 }
+
+.location__modal {
+  width: 2rem;
+}
+
+.sort {
+  &__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    width: 100%;
+  }
+  &__header {
+    color: black;
+  }
+  &__button {
+    // color: #13375E;
+    background-color: white;
+    border: 0.02rem solid grey;
+    padding: 0.6rem 1rem;
+    border-radius: 0.3rem;
+    width: 13rem;
+    margin: 0.5rem 0;
+    &--blue {
+      background-color: #13375e;
+      color: white;
+    }
+    &-save {
+      margin: 1rem 0;
+      background-color: #13375e;
+      background-image: linear-gradient(#13375e, #000000);
+      color: white;
+      border: none;
+      padding: 0.5rem 0.5rem;
+      width: 10rem;
+      border-radius: 10rem;
+      @include text-style(1rem, 2rem, 400);
+    }
+  }
+}
+
+.css-1wnsr1i {
+  width: 15rem !important;
+  padding: 0;
+}
