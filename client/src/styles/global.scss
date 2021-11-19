@@ -1,0 +1,11 @@
+@use './partials/colors.scss' as *;
+@use './partials/mixins.scss' as *;
+
+html {
+    background: linear-gradient($background-color, #000000,);
+    height: 100%;
+    width: 100%;
+    color: $primary-color;
+    margin: 0 1.5rem;
+}
+
