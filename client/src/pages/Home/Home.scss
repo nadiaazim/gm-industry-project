@@ -15,6 +15,10 @@
         &-name{
             @include pageheader
         }
+
+        &-image {
+            width: 90%;
+        }
     }
 
     &__stats {
@@ -59,6 +63,11 @@
             width: 10rem;
         }
 
+        &-pie {
+            width: 6rem;
+            padding-left: 1rem;
+        }
+
         &-divs {
             display: flex;
             flex-direction: column;
@@ -95,7 +104,7 @@
 
         &-number {
             @include text-style (1.8rem, 1.9rem, 700);
-            margin: 1rem 0 0 0;
+            margin: 1.5rem 0 0 0;
 
         }
 
@@ -106,10 +115,15 @@
 
         &-battery {
             display: flex;
-            justify-content: center;
+            margin: 0 0.2rem;
+
+            &-image {
+                height: 1.2rem;
+            };
 
             &-stats {
                 margin: 0;
+                padding-left: 2rem;
             }
         }
 

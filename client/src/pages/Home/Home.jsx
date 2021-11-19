@@ -1,4 +1,7 @@
 import React, { Component } from 'react'
+import CarImage from '../../assets/images/2020-Chevrolet-Bolt_EV-white-full_color-driver_side_profile.png'
+import CircularPie from '../../assets/images/circularpie.png'
+import LowBattery from '../../assets/images/low battery.png'
 import './Home.scss'
 
 class Home extends Component {
@@ -8,7 +11,7 @@ class Home extends Component {
             <div className="home">
                 <section className="home__car-component">
                     <h1 className="home__car-name">My Chevrolet</h1>
-                    <img className="home__car-image" src="" alt="your-car" />
+                    <img className="home__car-image" src={CarImage} alt="your-car" />
                 </section>
                 <section className="home__stats">
                     <div className="home__stats-container">
@@ -32,15 +35,17 @@ class Home extends Component {
                     <div className="home__analytics-container-top">
                         <div className="home__analytics-block">
                             <h3 className="home__analytics-title">RANGE</h3>
-                            <p>INSERT CHART HERE</p>
+                            <img className="home__analytics-pie" src={CircularPie} alt="pie-chart" />
                         </div>
                         <div className="home__analytics-divs">
                             <div className="home__analytics-divs-top">
                                 <h3 className="home__analytics-title">BATTERY</h3>
                                 <div className="home__analytics-battery">
-                                    <div className="home__analytics-battery-image">
+                                    {/* <div className="home__analytics-battery-image">
                                         <div className="home__analytics-battery-image-inside"></div>
-                                    </div>
+                                    </div> */}
+                                    <img className="home__analytics-battery-image" src={LowBattery} alt="pie-chart" />
+                                    <img className="home__analytics-battery-image" src={LowBattery} alt="pie-chart" />
                                     <p className="home__analytics-battery-stats">12%</p>
                                 </div>
                             </div>
