@@ -1,0 +1,31 @@
+[
+    {
+      "id": "1",
+      "firstName": "Nadia",
+      "lastName": "Min Min",
+      "carMake": "2022 Bolt EV 2LT",
+      "image": "http://localhost:8080/public/images/my-car.jpg",
+      "carDetails":{
+          "range": "30",
+          "battery": "12",
+          "temperature": "23",
+          "mileage": "10000",
+          "consumption": "20"
+      }
+    },
+    {
+      "id": "2",
+      "firstName": "Thessa",
+      "lastName": "Mar Mar",
+      "carMake": "2021 Tesla Model Y",
+      "image": "http://localhost:8080/public/images/my-car2.jpg",
+      "carDetails": {
+        "range": "50",
+        "battery": "30",
+        "temperature": "20",
+        "mileage": "19000",
+        "consumption": "33.22"
+      }
+    }
+
+]

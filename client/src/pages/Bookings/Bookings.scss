@@ -1,0 +1,36 @@
+.booking{
+    &__header{
+       text-align: center;
+       margin: 2rem 0;
+    }
+    &__calender{
+    display: flex;
+    justify-content: center;
+}
+}
+
+//Calender background
+.sdp{
+    background: rgba(128, 128, 128,0.5);
+}
+
+//Calender date block background
+.sdp--square-btn{
+    color: #91ECF8;
+    background: rgba(128, 128, 128,0);
+}
+//Calender selected date block background
+.sdp--date-btn__selected{
+    background-color: #91ECF8;
+    border-radius: 50%;
+    color: black;
+}
+
+//Calender week days
+.sdp--text__inactive{
+    color:white;
+}
+//Calender month date text
+.sdp--month-name {
+    color: #91ECF8;
+}
