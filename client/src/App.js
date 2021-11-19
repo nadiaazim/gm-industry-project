@@ -1,5 +1,6 @@
 import { Component } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
+import location from "./components/LocationPage/LocationPage";
 // import Home from "./pages/Home/Home";
 // import Footer from './components/Footer/Footer';
 // import RatePage from '../../client/src/components/RatePage';

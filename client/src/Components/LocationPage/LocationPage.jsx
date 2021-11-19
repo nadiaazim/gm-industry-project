@@ -17,9 +17,7 @@ function LocationPage() {
               placeholder="MY CURRENT LOCATION"
             />
           </form>
-          <Link to="/Locations/add">
-            <button className="location__add-btn">+ Add New Location</button>
-          </Link>
+
           <div className="location__button-wrap">
             <button className="location__open-now">OPEN NOW</button>
             <button className="location__closest-first">CLOSEST FIRST</button>

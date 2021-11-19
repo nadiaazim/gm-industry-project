@@ -1,5 +1,5 @@
 @use "./typography.scss" as *;
-@use './partials/colors.scss' as *;
+@use './colors.scss' as *;
 
 body {
   font-family: $font-stack;
