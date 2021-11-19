@@ -1,0 +1,2 @@
+import "./RateCharge.scss";
+
