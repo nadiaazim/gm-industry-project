@@ -2,9 +2,9 @@ import { Component } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import location from "./components/LocationPage/LocationPage";
 import Bookings from "./pages/Bookings/Bookings.jsx";
-// import Home from "./pages/Home/Home";
+import Home from "./pages/Home/Home";
 import Footer from './components/Footer/Footer';
-// import RatePage from '../../client/src/components/RatePage';
+import OnCharge from '../../client/src/components/OnCharge/OnCharge.jsx';
 
 class App extends Component {
   state = {
@@ -19,10 +19,10 @@ class App extends Component {
         <section>
           {/* <PageNav /> */}
           <Switch>
-            {/* <Route path= "/" exact component= {Home}/> */}
+            <Route path= "/" exact component= {Home}/>
             {/* <Route path= "/car" component={Car}/> */}
             <Route path="/location" exact component={location} />
-            {/* <Route path= "/ratepage" component= {RatePage} /> */}
+            <Route path= "/oncharge" component= {OnCharge} />
             <Route path= "/bookings" exact component={Bookings}/>
           </Switch>
           <Footer />

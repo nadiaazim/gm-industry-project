@@ -1,17 +1,24 @@
 .footer__container {
+  position: fixed;
   display: flex;
   justify-content: space-evenly;
   padding: 1rem 0 0 0;
 }
 
-.img__logo {
-  height: 4rem;
-  width: 4rem;
-  border-radius: 2rem;
+.img__logo1 {
+  position: fixed;
+  bottom: 2rem;
+  left: 2.5rem;
 }
 
-.footer__logo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.img__logo2 {
+  position: fixed;
+  bottom: 2rem;
+  right: 7rem;
+}
+
+.img__logo3 {
+  position: fixed;
+  bottom: 2rem;
+  right: 2.5rem;
 }/*# sourceMappingURL=Footer.css.map */
