@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import CarImage from '../../assets/images/2020-Chevrolet-Bolt_EV-white-full_color-driver_side_profile.png'
 import CircularPie from '../../assets/images/circularpie.png'
 import LowBattery from '../../assets/images/low battery.png'
+import PlusLogo from '../../assets/icons/plus.png'
+import MinusLogo from '../../assets/icons/minus.png'
 import './Home.scss'
 
 class Home extends Component {
@@ -52,9 +54,9 @@ class Home extends Component {
                             <div className="home__analytics-divs-bottom">
                                 <h3 className="home__analytics-title">TEMPERATURE</h3>
                                 <div className="home__analytics-temperature">
-                                    {/* <img src="" alt="minus-sign" className="home__analytics-temperature-logo" /> */}
+                                    <img src={MinusLogo} alt="minus-sign" className="home__analytics-temperature-logo" />
                                     <p className="home__analytics-temperature-stats">23°C</p>
-                                    {/* <img src="" alt="plus-sign" className="home__analytics-temperature-logo" /> */}
+                                    <img src={PlusLogo}  alt="plus-sign" className="home__analytics-temperature-logo" />
                                 </div>
                             </div>
                         </div>

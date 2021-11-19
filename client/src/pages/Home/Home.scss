@@ -131,6 +131,11 @@
             display: flex;
             justify-content: center;
 
+            &-logo {
+                height: 1rem;
+                margin: 0 1rem;
+            }
+
             &-stats {
                 margin: 0;
             }
