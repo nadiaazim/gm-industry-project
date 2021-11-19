@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import location from "./components/LocationPage/LocationPage";
 import Sort from "./components/Sort/Sort";
 import Home from "./pages/Home/Home";
+import PageNav from "./components/PageNav/PageNav";
 // import Bookings from "./components/Bookings/Bookings";
 
 // import Footer from './components/Footer/Footer';
@@ -19,7 +20,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <section>
-          {/* <PageNav /> */}
+          <PageNav />
           <Switch>
             <Route path= "/" exact component= {Home}/>
             {/* <Route path= "/car" component={Car}/> */}
