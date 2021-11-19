@@ -2,7 +2,7 @@ import './App.css';
 import {Component} from 'react';
 import {BrowserRouter, Switch, Route} from "react-router-dom";
 import Footer from './components/Footer/Footer';
-import RatePage from '../../client/src/components/RatePage';
+import RatePage from './components/Confirm';
 
 
 class App extends Component {
