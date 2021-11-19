@@ -1,7 +1,9 @@
 import { Component } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import location from "./components/LocationPage/LocationPage";
-import Bookings from "./pages/Bookings/Bookings.jsx";
+import Bookings from "./pages/Bookings/Bookings"
+// import Home from "./pages/Home/Home";
+import Sort from "./components/Sort/Sort";
 import Home from "./pages/Home/Home";
 import Footer from './components/Footer/Footer';
 import OnCharge from '../../client/src/components/OnCharge/OnCharge.jsx';
