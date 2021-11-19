@@ -1,0 +1,17 @@
+.footer__container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem 0 0 0;
+}
+
+.img__logo {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 2rem;
+}
+
+.footer__logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}/*# sourceMappingURL=Footer.css.map */

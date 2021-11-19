@@ -1,8 +1,9 @@
 import { Component } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import location from "./components/LocationPage/LocationPage";
+import Bookings from "./pages/Bookings/Bookings.jsx";
 // import Home from "./pages/Home/Home";
-// import Footer from './components/Footer/Footer';
+import Footer from './components/Footer/Footer';
 // import RatePage from '../../client/src/components/RatePage';
 
 class App extends Component {
@@ -24,7 +25,7 @@ class App extends Component {
             {/* <Route path= "/ratepage" component= {RatePage} /> */}
             <Route path= "/bookings" exact component={Bookings}/>
           </Switch>
-          {/* <Footer /> */}
+          <Footer />
         </section>
       </BrowserRouter>
     );
