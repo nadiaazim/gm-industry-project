@@ -1,16 +1,124 @@
 [
   {
-    "id": "1",
-    "address": "14145 Eighth Line",
-    "availability": "Open",
-    "km": "2km",
-    "rate": "0.16 cents"
+    "id": "110",
+    "name": "Tesla Supercharger",
+    "address": "220 Yonge St, Toronto",
+    "type": "Station",
+    "Zip code": "M5B 2H1",
+    "t": "Station",
+    "phone": "877-798-3752",
+    "providence": "Ontario",
+    "rate": "$4.50 / hr",
+    "km": "0.5km"
   },
   {
-    "id": "1",
-    "address": "14145 Eighth Line",
-    "availability": "Open",
-    "km": "2km",
-    "rate": "0.16 cents"
+    "id": "111",
+    "name": "Meaghan",
+    "address": "180 Wellington St W, Toronto",
+    "t": "Personal",
+    "Zip code": "M5J 1J1",
+    "phone": "888-758-4389",
+    "providence": "Ontario",
+    "rate": "$2.50 / hr",
+    "km": "0.75km"
+  },
+  {
+    "id": "112",
+    "name": "Polina",
+    "address": "22 West St, Toronto",
+    "t": "Personal",
+    "Zip code": "M5B 2H1",
+    "phone": "877-505-2674",
+    "providence": "Ontario",
+    "rate": "$2.30 / hr",
+    "km": "0.75km"
+  },
+  {
+    "id": "113",
+    "name": "ChargePoint",
+    "address": "4506 London Blvd, Toronto",
+    "t": "Station",
+    "Zip code": "M5J 1J1",
+    "phone": "888-758-4389",
+    "providence": "Ontario",
+    "rate": "$4.00 / hr",
+    "km": "0.9km"
+  },
+  {
+    "id": "114",
+    "name": "Nadia",
+    "address": "550 Adelaide St E, Toronto",
+    "t": "Personal",
+    "Zip code": "M5A 2W8",
+    "phone": "888-758-4389",
+    "providence": "Ontario",
+    "rate": "$2.00 / hr",
+    "km": "1.0km"
+  },
+  {
+    "id": "115",
+    "name": "Flo",
+    "address": "33-63 Orchard View Blvd, Toronto",
+    "t": "Station",
+    "Zip code": "M4R 2E9",
+    "phone": "888-758-4389",
+    "providence": "Ontario",
+    "rate": "$2.70 / hr",
+    "km": "1.75km"
+  },
+  {
+    "id": "116",
+    "name": "Zed",
+    "address": "565 Dundas st, Toronto",
+    "t": "Personal",
+    "Zip code": "M5B 2H1",
+    "phone": "877-798-3752",
+    "providence": "Ontario",
+    "rate": "$2.50 / hr",
+    "km": "2.3km"
+  },
+  {
+    "id": "117",
+    "name": "Tesla Supercharger",
+    "address": "550 Adelaide St E, Toronto",
+    "t": "Station",
+    "Zip code": "M5A 2W8",
+    "phone": "888-758-4389",
+    "providence": "Ontario",
+    "rate": "$3.00 / hr",
+    "km": "2.7km"
+  },
+  {
+    "id": "118",
+    "name": "Thessa",
+    "address": "60 Orchard View Blvd, Toronto",
+    "t": "Personal",
+    "Zip code": "M4R 2E7",
+    "phone": "888-758-4389",
+    "providence": "Ontario",
+    "rate": "$1.8.00 / hr",
+    "km": "2.9km"
+  },
+  {
+    "id": "119",
+    "name": "Martin",
+    "address": "180 Wellington St W, Toronto",
+    "t": "Personal",
+    "Zip code": "M4R 2E7",
+    "phone": "888-758-4389",
+    "providence": "Ontario",
+    "rate": "$1.8.00 / hr",
+    "km": "3.4km"
+  },
+  {
+    "id": "200",
+    "name": "Yan",
+    "address": "60 Orchard View Blvd, Toronto",
+    "t": "Personal",
+    "Zip code": "M4R 2E7",
+    "phone": "888-758-4389",
+    "providence": "Ontario",
+    "rate": "$1.8.00 / hr",
+    "km": "4.5km"
   }
 ]

@@ -20,6 +20,13 @@
     justify-content: space-between;
   }
   &__address {
+    margin-bottom: 0;
+  }
+  &__type {
+    font-size: 0.75rem;
+    font-style: italic;
+    margin: 0.5rem 0 0;
+    color: rgb(157, 157, 157);
   }
   &__availability {
     text-decoration: none;

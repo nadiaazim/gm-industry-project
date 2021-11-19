@@ -6,9 +6,8 @@ function LocationCards({ station }) {
     <>
       <div className="locations-card" key={station.id}>
         <div className="locations-card__left">
-          <p className="locations-card__address">
-            {station.address.toUpperCase()}
-          </p>
+          <p className="locations-card__address">{station.address}</p>
+          <p className="locations-card__type">{station.t}</p>
 
           <Link to="/bookings">
             <p className="locations-card__availability">VIEW AVAILABILITY</p>
@@ -16,7 +15,7 @@ function LocationCards({ station }) {
         </div>
 
         <div className="locations-card__right">
-          <p className="locations-card__km">{station.km.toUpperCase()}</p>
+          <p className="locations-card__km">{station.km}</p>
           <p className="locations-card__rate">{station.rate}</p>
 
           <Link to="/directions">
