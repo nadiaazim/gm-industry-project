@@ -1,0 +1,19 @@
+@use "../../styles/partials/global.scss" as *;
+@use "../../styles/partials/typography.scss" as *;
+
+.location {
+  margin: 0 auto;
+
+  &__header {
+    font-weight: 700;
+  }
+  &__map-wrap {
+    display: flex;
+    justify-content: center;
+  }
+  &__map {
+    width: 95%;
+    height: 22rem;
+    object-fit: cover;
+  }
+}

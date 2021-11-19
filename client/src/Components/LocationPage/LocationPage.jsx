@@ -7,7 +7,7 @@ import "./LocationPage.scss";
 function LocationPage() {
   return (
     <>
-      <section className="location__wrap">
+      <section className="location">
         <h1 className="location__header">Find Charging Stations</h1>
         <div className="location__input-container">
           <form>
@@ -25,8 +25,8 @@ function LocationPage() {
             <button className="location__closest-first">CLOSEST FIRST</button>
             <img src="" alt="settings icon" />
           </div>
-          <div className="location-map">
-            <img src={map} alt="map image" />
+          <div className="location__map-wrap">
+            <img className="location__map" src={map} alt="map image" />
           </div>
         </div>
         {/* This is the list section */}
