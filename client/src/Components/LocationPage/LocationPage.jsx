@@ -1,7 +1,7 @@
 import React from "react";
-import LocationCards from "../LocationCards/LocationCards";
+// import LocationCards from "../LocationCards/LocationCards";
 import map from "../../assets/images/map.png";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./LocationPage.scss";
 
 function LocationPage() {
@@ -24,7 +24,7 @@ function LocationPage() {
             <img src="" alt="settings icon" />
           </div>
           <div className="location__map-wrap">
-            <img className="location__map" src={map} alt="map image" />
+            <img className="location__map" src={map} alt="map" />
           </div>
         </div>
         {/* This is the list section */}
