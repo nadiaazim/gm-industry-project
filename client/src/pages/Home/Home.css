@@ -9,4 +9,130 @@ html {
   height: 100%;
   width: 100%;
   color: white;
+}
+
+.home__car-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home__car-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  color: #f4f4f4;
+}
+.home__stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.home__stats-container {
+  margin: 1rem 0.5rem 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  width: 8rem;
+}
+.home__stats-title {
+  margin-bottom: 0.2rem;
+  color: #a39f9f;
+  font-size: 0.9rem;
+  line-height: 1.9rem;
+  font-weight: 400;
+}
+.home__stats-details {
+  font-size: 0.9rem;
+  line-height: 0;
+  font-weight: 400;
+  margin: 0;
+  color: #a39f9f;
+}
+.home__analytics {
+  margin-top: 4rem;
+}
+.home__analytics-container-top {
+  display: flex;
+}
+.home__analytics-block {
+  border: 0.1px solid #f4f4f4;
+  outline: none;
+  border-radius: 7px;
+  box-shadow: 2px 3px 10px rgba(255, 255, 255, 0.2);
+  background: linear-gradient(#4d4d4e, #383838);
+  color: #f4f4f4;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  height: 8rem;
+  width: 10rem;
+}
+.home__analytics-divs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home__analytics-divs-top {
+  border: 0.1px solid #f4f4f4;
+  outline: none;
+  border-radius: 7px;
+  box-shadow: 2px 3px 10px rgba(255, 255, 255, 0.2);
+  background: linear-gradient(#4d4d4e, #383838);
+  color: #f4f4f4;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  height: 3rem;
+  width: 8rem;
+}
+.home__analytics-divs-bottom {
+  border: 0.1px solid #f4f4f4;
+  outline: none;
+  border-radius: 7px;
+  box-shadow: 2px 3px 10px rgba(255, 255, 255, 0.2);
+  background: linear-gradient(#4d4d4e, #383838);
+  color: #f4f4f4;
+  padding: 0.5rem;
+  height: 3rem;
+  width: 8rem;
+}
+.home__analytics-container-bottom {
+  display: flex;
+}
+.home__analytics-title {
+  font-size: 0.9rem;
+  line-height: 1.9rem;
+  font-weight: 400;
+  margin: 0;
+}
+.home__analytics-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home__analytics-number {
+  font-size: 1.8rem;
+  line-height: 1.9rem;
+  font-weight: 700;
+  margin: 1rem 0 0 0;
+}
+.home__analytics-unit {
+  font-size: 0.9rem;
+  line-height: 1.9rem;
+  font-weight: 400;
+  margin: 0;
+}
+.home__analytics-battery {
+  display: flex;
+  justify-content: center;
+}
+.home__analytics-battery-stats {
+  margin: 0;
+}
+.home__analytics-temperature {
+  display: flex;
+  justify-content: center;
+}
+.home__analytics-temperature-stats {
+  margin: 0;
 }/*# sourceMappingURL=Home.css.map */
