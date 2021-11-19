@@ -2,7 +2,7 @@ import { Component } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 // import location from "./components/LocationPage/LocationPage";
 import Bookings from "./pages/Bookings/Bookings"
-import Sort from "./components/Sort/Sort";
+import Sort from "./Components/Sort/Sort";
 import Home from "./pages/Home/Home";
 // import Bookings from "./components/Bookings/Bookings";
 

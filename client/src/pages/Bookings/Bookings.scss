@@ -111,3 +111,30 @@ input{
     text-align: center;
     width: 100%;
 }
+
+.box-modual {
+    width: 15rem;
+    height: 6rem;
+    align-self: center;
+}
+.open-modual
+{
+    color: black;
+    font-size: 1rem;
+}
+.open-modual1 {
+    color: black;
+    font-size: 1rem;
+}
+.confirm-modual {
+    width: 8rem;
+    height: 7rem;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.confirm-buttons{
+    display:flex;
+}
