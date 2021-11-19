@@ -1,7 +1,8 @@
+@use "../../styles/partials/mixins.scss" as *;
 .booking{
     &__header{
-       text-align: center;
-       margin: 2rem 0;
+       font-weight: 700;
+        @include pageheader;
     }
     &__calender{
     display: flex;
