@@ -2,7 +2,6 @@ import DatePicker from "sassy-datepicker";
 import { TimePicker } from "@patternfly/react-core";
 import "./Bookings.scss";
 var React = require("react");
-var ReactDOM = require("react-dom");
 
 export const Bookings = () => {
   const onChange = (date) => {
