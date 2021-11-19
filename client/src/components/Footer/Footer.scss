@@ -1,0 +1,28 @@
+.footer {
+
+    &__container{
+    position: fixed; 
+    display:flex;
+    justify-content: space-evenly;
+    padding: 1rem 0 0 0; 
+
+}
+}
+
+.img__logo1 {
+    position: fixed;
+    bottom: 3rem; 
+    left: 20%; 
+}
+
+.img__logo2 {
+    position: fixed; 
+    bottom: 3rem; 
+    left: 45%; 
+}
+
+.img__logo3 {
+    position: fixed; 
+    bottom: 3rem; 
+    left: 75%; 
+}
