@@ -1,6 +1,14 @@
 @use "./typography.scss" as *;
+@use './partials/colors.scss' as *;
 
 body {
   font-family: $font-stack;
   margin: 0;
+}
+
+html {
+  background: linear-gradient($background-color, #000000);
+  height: 100%;
+  width: 100%;
+  color: $primary-color;
 }
