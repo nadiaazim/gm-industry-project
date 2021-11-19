@@ -19,7 +19,7 @@ function LocationCards({ station }) {
           <p className="locations-card__km">{station.km.toUpperCase()}</p>
           <p className="locations-card__rate">{station.rate}</p>
 
-          <Link to="/bookings">
+          <Link to="/directions">
             <p className="locations-card__directions">DIRECTIONS</p>
           </Link>
         </div>

@@ -6,26 +6,45 @@
 .location {
   margin: 0 auto;
 
+  &__arrow {
+    height: 1.5rem;
+    margin-bottom: 0;
+  }
   &__header {
     font-weight: 700;
     @include pageheader;
+    margin-top: 1rem;
   }
   &__search {
     @include box-gradient;
     width: -webkit-fill-available;
     margin-bottom: 0.75rem;
+    padding-left: 2.5rem;
+    background-repeat: no-repeat;
+    background-position: 8px;
+    background-color: rgba(201, 196, 196, 0.216);
+    background-image: url("../../assets/icons/search-magnifying-glass.png");
+    &::placeholder {
+      color: rgb(227, 227, 227);
+    }
   }
   &__button-wrap {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   &__open-now {
     @include box-no-gradient;
     margin: 0 0 0.75rem 0;
     font-size: 0.75rem;
+    height: 2.5rem;
+  }
+  &__filter {
+    height: 1.75rem;
+    margin-top: 0.5rem;
   }
   &__closest-first {
     @include box-no-gradient;
+    height: 2.5rem;
   }
   &__map-wrap {
     display: flex;
